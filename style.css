@@ -1,3 +1,50 @@
+@media screen and (max-width: 1000px) {
+    .fine {
+        color: rgb(18, 20, 20);
+        font-style: italic;
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 25px 100px 25px 100px;
+        padding: 40px;
+    }   
+    
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 60%;
+    }
+
+    a img {
+        padding: 25px;
+    }
+
+    nav {
+        background-color: #4c4444;
+        color: #fff;
+        padding: 30px;
+    }
+
+    nav ul {
+        font-size: 30px;
+    }
+
+    header img {
+        width:600px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      
+    main {
+        flex: 2;
+      }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +79,6 @@ a {
     padding: 20px;
     color: rgb(229, 229, 229);
     line-height: 40px;
-    font-size: medium;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -198,6 +244,7 @@ h1+p {
     font-style: italic;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
+    margin: 25px 400px 25px 400px;
 }
 
 /* #fool {
