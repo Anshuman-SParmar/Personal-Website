@@ -93,9 +93,13 @@ nav li {
 }
 
 img {
-    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+a img {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 main {
