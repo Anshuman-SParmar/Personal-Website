@@ -186,21 +186,21 @@ a img {
 }
 
 main {
-    padding: 20px;
+    padding: 22px;
     background-color: rgb(65, 82, 82);
 }
 
 footer {
     background-color: #272525;
     color: #fff;
-    padding: 20px 20px 20px 20px;
+    padding: 30px 20px 0px 20px;
     text-align:center;
-    height: 50px;
+    height: 80px;
     font-size: medium;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#footer {
+/* #footer {
     position: relative;
     bottom: 0;
     width: 100%;
@@ -214,7 +214,7 @@ footer {
 
 footer ul li {
     padding: 16px;
-}
+} */
 
 .contact {
     border: 5px solid rgba(42, 52, 52, 0.314);
