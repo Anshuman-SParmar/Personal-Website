@@ -1,6 +1,10 @@
 @media screen and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+      }
+    
     .fine {
-        color: rgb(18, 20, 20);
+        color: rgb(21, 21, 20);
         font-style: italic;
         font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
@@ -24,6 +28,7 @@
         background-color: #4c4444;
         color: #fff;
         padding: 30px;
+        width:100%;
     }
 
     nav ul {
@@ -36,13 +41,22 @@
 
     body {
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         min-height: 100vh;
-      }
+        overflow-x: hidden;
+    }
       
     main {
-        flex: 2;
-      }
+        flex: 0;
+    }
+
+    body footer {
+        padding: 10px 20px 20px 20px;
+    }
+
+    footer p {
+        font-size: 20px;
+    } 
 }
 
 @media (max-width: 800px) {
@@ -188,16 +202,6 @@ main {
     background-color: rgb(65, 82, 82);
 }
 
-.awesome {
-    display: flex;
-    flex-direction:column;
-    min-height: 100vh;
-}
-
-.awesome .content {
-    flex: 1;
-}
-
 footer {
     background-color: #272525;
     color: #fff;
@@ -206,6 +210,19 @@ footer {
     height: 80px;
     font-size: medium;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Body Tag Ended */
+
+
+/* Experience Page Start*/
+.awesome {
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+.awesome .content {
+    flex: 1;
 }
 
 #footer {
@@ -219,6 +236,7 @@ footer {
 footer ul li {
     padding: 8px;
 }
+/* Experience Page Ended */
 
 
 /* Contact Form Started */
