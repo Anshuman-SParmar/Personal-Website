@@ -188,6 +188,16 @@ main {
     background-color: rgb(65, 82, 82);
 }
 
+.awesome {
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+.awesome .content {
+    flex: 1;
+}
+
 footer {
     background-color: #272525;
     color: #fff;
@@ -198,21 +208,17 @@ footer {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* #footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    left: 0;
+#footer {
+    height: 60px;
 }
 
 #footer ul {
-    padding: 15px 10px 0px 10px;
+    padding: 10px 20px 0px 20px;
 }
 
 footer ul li {
-    padding: 16px;
-} */
+    padding: 10px;
+}
 
 
 /* Contact Form Started */
