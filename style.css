@@ -122,6 +122,11 @@
     } 
 }
 
+/* Media Query Ended */
+
+
+
+/* Body tag start */
 body {
     margin: 0;
     padding: 0;
@@ -209,6 +214,8 @@ footer ul li {
     padding: 16px;
 } */
 
+
+/* Contact Form Started */
 .contact {
     border: 5px solid rgba(42, 52, 52, 0.314);
     border-radius: 1%;
@@ -321,6 +328,8 @@ input[type="submit"] {
     margin: auto;
     cursor: pointer;
 }
+
+/* Contact page ended */
 
 ol {
     display: grid;
