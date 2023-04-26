@@ -126,7 +126,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    height: 100%;
 }
 
 header {
@@ -171,10 +170,6 @@ nav li {
     list-style-type: none;
 }
 
-.content {
-    min-height: 100%;
-}
-
 img {
     margin-left: auto;
     margin-right: auto;
@@ -186,7 +181,7 @@ a img {
 }
 
 main {
-    padding: 20px;
+    padding: 0px;
     background-color: rgb(65, 82, 82);
 }
 
