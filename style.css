@@ -246,6 +246,48 @@ footer ul li {
 /* Experience Page Ended */
 
 
+.pipe {
+    min-height: 495px;
+}
+
+html .right {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.right main {
+    flex: 1;
+}
+
+/* Project Image Designs Ended */
+.image-container {
+  width: 950px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+.hover-image {
+  position: relative;
+  align-items: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: transform 0.4s ease;
+  max width: 100%;
+}
+
+.hover-image:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+/* Project Image Designs Ended */
+
 /* Contact Form Started */
 .contact {
     border: 5px solid rgba(42, 52, 52, 0.314);
