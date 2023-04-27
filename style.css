@@ -279,7 +279,7 @@ html .right {
   bottom: 0;
   right: 0;
   transition: transform 0.4s ease;
-  max width: 100%;
+  max-width: 100%;
 }
 
 .hover-image:hover {
