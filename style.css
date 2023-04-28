@@ -246,6 +246,8 @@ footer ul li {
 /* Experience Page Ended */
 
 
+/* Education Page Settings */
+
 .pipe {
     min-height: 495px;
 }
@@ -259,6 +261,8 @@ html .right {
 .right main {
     flex: 1;
 }
+/* Education page settings ended here */
+
 
 /* Project Image Designs Ended */
 .image-container {
