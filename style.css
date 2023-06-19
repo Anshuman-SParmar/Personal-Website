@@ -266,8 +266,8 @@ html .right {
 
 /* Project Image Designs Ended */
 .image-container {
-  width: 950px;
-  height: 500px;
+width: 800px;
+    height: 1050px;
   position: relative;
   overflow: hidden;
   align-items: center;
@@ -275,6 +275,10 @@ html .right {
   padding-top: 20px;
 }
 
+.project-1 {
+    width: 800px;
+    height: 500px;
+}
 .hover-image {
   position: relative;
   align-items: center;
