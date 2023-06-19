@@ -266,8 +266,8 @@ html .right {
 
 /* Project Image Designs Ended */
 .image-container {
-width: 800px;
-    height: 1050px;
+  width: 800px;
+  height: 1050px;
   position: relative;
   overflow: hidden;
   align-items: center;
@@ -279,6 +279,7 @@ width: 800px;
     width: 800px;
     height: 500px;
 }
+
 .hover-image {
   position: relative;
   align-items: center;
